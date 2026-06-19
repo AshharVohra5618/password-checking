@@ -1,8 +1,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 html{
-    scrollbar-width: none;
+    /* scrollbar-width: none; */
+    box-sizing: border-box;
 }
+
 .pass{
     height: 30px;
     width: 30px;
@@ -13,6 +15,7 @@ html{
 .clr{
     background-color: rgb(51, 51, 30);
     /* overflow: hidden; */
+     box-sizing: border-box; 
     
     
 }
@@ -27,7 +30,7 @@ html{
     padding-top: 2%;
 }
 .para1{
-    margin-top: 37px;
+    margin-top: 36px;
 }
 .mid1{
     font-family: Poppins;
@@ -86,9 +89,11 @@ html{
 }
 .main-div{
     display: flex;
-    /* flex-direction: column; */
+    width: 100%;
     justify-content: center;
-    /* align-items: center; */
+    
+     box-sizing: border-box;
+    gap: 10px;
 }
 #upperLower{
     border: none;
@@ -143,7 +148,7 @@ html{
 }
 .para4{
     font-size: 14px;
-    /* font-weight: 600; */
+    
     letter-spacing: 1px;
     font-stretch: expanded;
 }
@@ -155,7 +160,7 @@ html{
 }
 .foot1:hover{
     color: #26d4eb;
-}
+} 
 
 @media (min-width: 556px) and (max-width: 776px){
 
@@ -231,7 +236,7 @@ html{
 @media (max-width: 400px){
      .head{
     width: 340px;
-    height: 70px;
+    height: 60px;
 }
 #pass{
     height: 30px;
@@ -265,7 +270,7 @@ html{
 @media (max-width: 355px){
      .head{
     width: 250px;
-    height: 70px;
+    height: 50px;
 }
 #pass{
     height: 30px;
